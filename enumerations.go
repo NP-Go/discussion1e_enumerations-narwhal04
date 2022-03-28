@@ -13,6 +13,7 @@ const (
 	count1
 	count2
 	count3
+	count4 //test to check if constant can be declared but not used
 )
 
 func main() {
@@ -23,5 +24,6 @@ func main() {
 	fmt.Println(count1)
 	fmt.Println(count2)
 	fmt.Println(count3)
+	fmt.Println(count4) //constant can be declared but not used
 
 }
