@@ -10,6 +10,7 @@ const (
 
 const (
 	count0 = iota
+	_      //added blank identifier for test
 	count1
 	count2
 	count3
@@ -27,3 +28,5 @@ func main() {
 	fmt.Println(count4) //constant can be declared but not used
 
 }
+
+//blank identifier for iota
